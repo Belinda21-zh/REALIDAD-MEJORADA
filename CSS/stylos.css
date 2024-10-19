@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.header-bg {
+    background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg'); /* Reemplaza este enlace con la URL de tu imagen cibernética */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.header-image {
+    position: absolute;
+    top: 0px; 
+    left: 25px; 
+    width: 240px;
+    height: auto; 
+}
+
+header h1 {
+    font-size: 50px;
+}
+H1 {
+    font-family: "Spicy Rice", serif;
+    font-weight: 900;
+    font-style: normal;
+    -webkit-text-stroke: 1px #000;
+  }
+nav {
+    background-color: #ffffff; 
+    border: 2px solid #000000; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center; 
+    width: 50%; 
+    height: 60px; 
+}
+
+nav a {
+    color: #000000; 
+    background-color: #6c93b8d2; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 150px; 
+    height: 100%;
+}
+
+nav a:hover {
+    background-color: #ffea60; 
+    color: #000000; 
+}
+p {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.caja {
+    border-radius: 30px; 
+    background-color: #ffffff; 
+    border: 3px solid #1c7896; 
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.caja img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.caja h2 {
+    color: #f1ca3f; 
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px #000;
+    font-size: 50px;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.caja p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+}
+footer {
+    background-color: #f0f0f0; 
+    text-align: center; 
+    padding: 20px 0; /* Aumenté el padding para más espacio */
+}
+
+.social-icons {
+    display: flex; /* Usamos flexbox para centrar los íconos */
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Permite que los íconos se ajusten en varias líneas si es necesario */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espacio entre los íconos */
+}
+
+.social-icon {
+    width: 40px;
+    height: auto; 
+    display: block; 
+}
+
+
+
+
